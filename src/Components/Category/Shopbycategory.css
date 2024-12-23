@@ -1,0 +1,36 @@
+.category_card{
+    width: 340px;
+    font-size: 32px;
+    transition: transform .5s;
+}
+.category_card:hover{
+    transform: translate()
+}
+.category_image{
+    width: 100%;
+    padding: 9px;
+    
+
+}
+.category_card div {
+    padding: 10px;
+    background: transparent;
+    border: 2px solid white;
+    position: relative; /* Ensure 'left' and 'bottom' work as intended */
+    left: 14px;
+    bottom: 30px;
+    width: 0; /* Start width for animation */
+    animation: card 2s infinite ease-out; /* Apply animation */
+}
+
+
+
+
+.category_card div{
+
+}
+
+
+.category_card div h4{
+    font-size: 18px;
+}

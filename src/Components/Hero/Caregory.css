@@ -1,0 +1,9 @@
+.category-icon {
+    border: 2px solid #e0e0e0;
+    transition: all 0.3s ease-in-out;
+  }
+  .category-icon:hover {
+    border-color: #007bff;
+    transform: scale(1.1);
+  }
+  
