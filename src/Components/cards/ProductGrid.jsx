@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './productgrid.css';
+import './Productstyle.css'
 import { FaHeart, FaShare, FaStar, FaCartPlus, FaEye } from "react-icons/fa";
 import Product from "./../AllProducts/Product";
 
