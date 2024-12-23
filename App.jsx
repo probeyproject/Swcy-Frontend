@@ -1,21 +1,21 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Pages/Home";
-import Navbarcomp from "./Components/Layout/Navbar";
-import Footer from "./Components/Layout/Footer";
-import "./App.css";
-import Signup from "./Components/Auth/Signup";
-import Signin from "./Components/Auth/Signin";
-import Wishlist from "./Components/Wishlist/Wishlist";
-import AddToCart from "./Components/Cart/AddToCart";
-import ProductDetail from "./Components/Product detail/ProductDetail";
-import CheckoutPage from "./Components/Cart/CheckoutPage";
+import Home from "./src/Pages/Home";
+import Navbar from "./src/Components/Layout/Navbar";
+import Footer from "./src/Components/Layout/Footer";
+import "./public/style.css"
+import Signup from "./src/Components/Auth/Signup";
+import Signin from "./src/Components/Auth/Signin";
+import Wishlist from "./src/Components/Wishlist/Wishlist";
+import AddToCart from "./src/Components/Cart/AddToCart";
+import ProductDetail from "./src/Components/Product detail/ProductDetail";
+import CheckoutPage from "./src/Components/Cart/CheckoutPage";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-        <Navbarcomp />
+        <Navbar />
 
         <Routes>
           <Route path="/" element={<Home />} />

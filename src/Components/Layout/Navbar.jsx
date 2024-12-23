@@ -5,7 +5,7 @@ import { FaCartArrowDown, FaRegHeart, FaRegUser } from "react-icons/fa";
 import { IoIosSearch } from "react-icons/io"; 
 import Authcanvas from "../Auth/Authcanvas"; // Import Authcanvas to show the modal
 
-const Navbarcomp = () => { 
+const Navbar = () => { 
   // State to manage modal visibility 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -295,4 +295,4 @@ const Navbarcomp = () => {
   );
 };
 
-export default Navbarcomp;
+export default Navbar;
