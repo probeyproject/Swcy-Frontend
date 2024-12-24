@@ -12,7 +12,7 @@ function Videocategory() {
           playsInline 
           style={{ width: '100%', height: '800px' }}
         >
-          <source src={Video} type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/8371247/8371247-sd_960_506_25fps.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
