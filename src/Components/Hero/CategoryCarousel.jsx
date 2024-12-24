@@ -56,6 +56,9 @@ function CategoryCarousel() {
 
   return (
     <div className="bg-white mt-4 py-3">
+    <div>
+    Home page 
+    </div>
   
       <Slider {...settings}>
         {categories.map((category,index) => (
@@ -79,10 +82,14 @@ function CategoryCarousel() {
               </div>
             </a>
             <span>{category.name}</span>
+           
           </div>
+          
         ))}
       </Slider>
+     
     </div>
+    
   );
 }
 

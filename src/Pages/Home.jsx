@@ -15,6 +15,7 @@ function Home() {
     <div>
       <Hero/>
       <CategoryCarousel/>
+      
       <Shopbycategory/>
       <Videocategory/>
       <ProductGrid/>
