@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Marcellus';
+  src: url('./assets/fonts/Marcellus/Marcellus-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+h1, h2, h3 {
+  font-family: 'Marcellus', serif;
+}
+
+body {
+  font-family: 'Marcellus', serif;
+}
+
+
+#root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: black white;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 20px;
+  border: 3px solid white;
+}
+
+
+::selection {
+
+  background-color: black; /* Light gray background */
+
+  color: white; /* Dark gray text color */
+
+}

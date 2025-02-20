@@ -1,0 +1,129 @@
+/* General Container Styling */
+.thumbnail-container{
+    padding-right: 10px;
+  }
+
+  /* Thumbnail Styling */
+  .thumbnail-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .thumbnail {
+    cursor: pointer;
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  .thumbnail:hover {
+    border-color: #000;
+  }
+  
+  /* Main Image Styling */
+  .main-image {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-left: 15px;
+  }
+
+  .magnify-container {
+    width: 100%;
+    max-width: 400px;
+    /* overflow: hidden; */
+  }
+
+
+    /* Responsive Adjustments */
+  @media (max-width: 1024px) {
+        .thumbnail {
+          width: 100px;
+          height: 65px;
+        }
+      
+        .main-image {
+          max-height: 700px;
+          margin-left: 5px;
+        }
+      }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .thumbnail {
+      /* width: 70px; */
+      height: 48px;
+    }
+  
+    .main-image {
+      max-height: 550px;
+      margin-left: 5px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .thumbnail-container {
+      justify-content: center;
+    }
+  
+    .thumbnail {
+      /* width: 50px; */
+      height: 50px;
+    }
+  
+    .main-image {
+      max-height: 400px;
+      margin-left: 5px;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    .thumbnail-container {
+      justify-content: center;
+    }
+  
+    .thumbnail {
+      width: 60px;
+      height: 90px;
+    }
+  
+    .main-image {
+      max-height: 400px;
+      margin-left: 5px;
+    }
+  }
+
+  @media (max-width: 376px) {
+    .thumbnail-container {
+      justify-content: center;
+    }
+  
+    .thumbnail {
+      /* width: 45px; */
+      height: 60px;
+    }
+  
+    .main-image {
+      max-height: 400px;
+      margin-left: 2px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .thumbnail-container {
+      justify-content: center;
+    }
+  
+    .thumbnail {
+      width: 46px;
+      height: 46px;
+    }
+  
+    .main-image {
+      max-height: 300px;
+      margin-left: 3px;
+    }
+  }

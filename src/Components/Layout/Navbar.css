@@ -1,0 +1,162 @@
+/* Navbar Dropdown */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+/* Colors and Styles */
+.bg-color {
+  color: rgb(207, 203, 203);
+}
+
+.bg-blur {
+ 
+  background: transparent;
+  backdrop-filter: blur(60px);
+}
+
+
+
+.footer_bg {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    214deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(119, 121, 9, 1) 30%,
+    rgba(70, 90, 27, 1) 59%,
+    rgba(0, 44, 53, 1) 80%,
+    rgba(0, 44, 53, 1) 100%
+  );
+}
+
+.bg-darkblue:hover {
+  color: red;
+}
+
+.bg-orange {
+  font-size: 19px;
+  color: black;
+}
+
+.no-border {
+  border: 0;
+  box-shadow: none;
+}
+
+/* Navbar Hover Effects */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  transform: scale(1.1);
+}
+
+.dropdown-column li a {
+  transition: color 0.1s ease, transform 0.3s ease;
+}
+
+.dropdown-column li a:hover {
+  color: red;
+  transform: scale(1.1);
+}
+
+.dropdown-item:hover {
+  color: red;
+}
+
+/* Navbar Logo */
+.navimg {
+  height: 300px;
+  width: 250px;
+}
+
+/* Navbar Scroll Behavior */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  background: rgba(137, 135, 135, 0.8);
+  backdrop-filter: blur(5px);
+}
+
+.navbar_bg.show-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+.navbar_bg.hide-navbar {
+  position: fixed;
+  top: -100px; /* Adjust this value to move the navbar out of view */
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+/* Add padding to the body content */
+body {
+  padding-top: 70px; /* Adjust this value based on the navbar height */
+}
+
+
+
+/* Navbar Logo */
+.navbar-logo {
+  height: 60px;
+  padding: 5px;
+  filter: brightness(0) invert(1);
+}
+
+/* Navbar Icons */
+.icon {
+  font-size: 22px;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+/* Input Field */
+.input-group .form-control {
+  border: 1px solid #ddd;
+}
+
+/* Announcement Bar */
+.announcement-bar {
+  width: 100%;
+  background-color: rgb(252, 118, 118);
+  color: white;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    background: rgba(255, 255, 255, 1); /* Solid background for small screens */
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+
+  .dropdown-column .dropdown-item {
+    align-items: center;
+  }
+}

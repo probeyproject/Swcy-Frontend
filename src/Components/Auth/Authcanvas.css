@@ -1,0 +1,101 @@
+/* Full-screen overlay */
+.auth-modal-overlay {
+    position: fixed;
+    margin-top: 480px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    z-index: 1100;
+  }
+
+
+
+
+  /* modal button css */
+  .button_button {
+    padding: 6px 12px ;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+     
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }  
+  /* Modal Content */
+  .auth-modal-content {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-modal-image {
+    flex: 1;
+    background-color: #f5f5f5;
+  }
+  
+  .auth-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .auth-modal-form {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .auth-modal-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .auth-modal-body {
+    margin-top: 20px;
+  }
+  
+  .auth-modal-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .toggle-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-left: 5px;
+  }
+  
+  .toggle-button:hover {
+    color:#002d7b;
+  }
+  
+ 
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .auth-modal-content {
+      width: 95%;
+      max-height: 90vh;
+    }
+  }
+  
+  @keyframes slideInFromTop {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  

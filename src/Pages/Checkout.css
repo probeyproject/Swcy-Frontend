@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  /* Top Bar Styles */
+  .top-bar {
+    margin-bottom: 20px;
+  }
+  .top-bar h6 {
+    font-weight: bold;
+  }
+  .top-bar p {
+    margin-bottom: 5px;
+  }
+  .top-bar a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .top-bar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Payment Methods */
+  .payment-methods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .payment-methods p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .payment-methods a {
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  /* Order Summary Styles */
+  .order-summary {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .order-summary h6 {
+    font-weight: bold;
+  }
+  .order-summary hr {
+    margin: 15px 0;
+  }
+  
+  /* Coupon Section */
+  .coupon-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .coupon-item a {
+    color: #007bff;
+    font-size: 14px;
+  }
+  
+  /* Promo Code Section */
+  .promo-code {
+    display: flex;
+    align-items: center;
+  }
+  .promo-code input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  /* Order Items */
+  .order-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  .order-item img {
+    width: 100px;
+    border-radius: 5px;
+  }
+  .order-item h6 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .order-item p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Quantity Section */
+  .quantity-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quantity-input input {
+    width: 40px;
+    text-align: center;
+    margin: 0 5px;
+  }
+  
+  /* Place Order Button */
+  .place-order-btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .place-order-btn:hover {
+    background-color: #0056b3;
+  }
+  

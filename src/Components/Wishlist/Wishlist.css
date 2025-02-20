@@ -1,0 +1,16 @@
+.card-image-wrapper:hover img {
+  transform: scale(1.2);
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover .hide {
+  display: block;
+  color: red;
+}
+
+.btn_darkblue {
+  color: black;
+}

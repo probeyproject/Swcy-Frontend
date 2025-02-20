@@ -1,0 +1,50 @@
+:root {
+    --primary: black;
+    --secondary: #E93C05;
+    --tertiary: #555555;
+    --light: #DFE4FD;
+    --dark: #011A41;
+}
+
+.d_color{
+    color: black;
+}
+
+/*** Facts ***/
+.facts {
+    background: black;
+  }
+  
+  /*** Feature ***/
+  .feature .feature-box,
+  .feature .feature-box * {
+      transition: .5s;
+  }
+  
+  .feature .feature-box:hover {
+      background: var(--primary);
+      border-color: var(--primary) !important;
+  }
+  
+  .feature .feature-box:hover * {
+      color: #FFFFFF !important;
+  }
+  
+  
+  /*** Service ***/
+  .service .nav .nav-link {
+      transition: .5s;
+  }
+  
+  .service .nav .nav-link.active {
+      border-color: var(--primary) !important;
+      background: var(--primary);
+  }
+  
+  .service .nav .nav-link.active h5 {
+      color: #FFFFFF !important;
+  }
+  
+  .service .nav .nav-link.active h5 i {
+      color: #FFFFFF !important;
+  }

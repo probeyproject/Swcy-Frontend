@@ -1,0 +1,107 @@
+/* Global Styles */
+
+  
+  /* Row Styling */
+  .Story-parent{
+    background: linear-gradient(156deg, #dccdcd,#565353);
+    margin-top: 100px;
+    /* height: 90vh; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Story Text Styling */
+  .Story-text {
+    text-align: left;
+    padding: 20px;
+    animation: fadeInLeft 1.5s ease-in-out;
+  }
+  
+  .Read {
+    color: #353535;
+    font-size: 4rem;
+    font-weight: bold;
+    
+    /* background: linear-gradient(45deg, #c9291a, #cd2010); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  }
+  
+  .Story {
+    color: #3b3b3b;
+    font-size: 3rem;
+    font-weight: 600;
+    background: linear-gradient(45deg, #cd2010, #e7c3a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .Highlight{
+    font-size: 1.3rem;
+    color: rgb(222, 217, 217);
+  }
+  .StoryParagraph{
+    line-height: 1.6;
+  }
+  /* Image Styling */
+  .Story_img {
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    animation: fadeInRight 1.5s ease-in-out;
+  }
+  .ChooseUs{
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    /* max-height: 50%; */
+    object-fit: cover;
+    animation: fadeInRight 1.5s ease-in-out;
+  }
+ 
+
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .Story-text {
+      text-align: center;
+    }
+  
+    /* img {
+      margin-top: 20px;
+      max-height: 300px;
+    } */
+  }
+  
+  /* Animations */
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
